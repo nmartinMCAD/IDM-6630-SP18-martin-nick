@@ -1,0 +1,28 @@
+h1 {
+  font-family: $headerFont;
+  font-size: 4em;
+}
+
+p, a {
+  font-family: $copyFont;
+}
+
+p.bioP {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2rem;
+}
+
+span {
+  font-style: italic;
+}
