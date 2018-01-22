@@ -17,6 +17,8 @@
       <?php echo "<h1>Arthur C. Clarke</h1>"; ?>
 
       <img src="img/arthurClarkeHome.jpg" alt="black and white image of Arthur C. Clarke">
+
+      <?php echo "<p>Testing Slack Integration</p>"; ?>
     </main>
 
   </body>
