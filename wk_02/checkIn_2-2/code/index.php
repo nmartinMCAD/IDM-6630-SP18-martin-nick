@@ -7,9 +7,8 @@
   <body>
     <?php
 
-      $myArray = array("Lima","Romeo","Sierra", 480, 920.575);
-
       function myFunction() {
+        $myArray = array("Lima","Romeo","Sierra", 480, 920.575);
         foreach ($myArray as $value) {
           echo
           "<ul>
