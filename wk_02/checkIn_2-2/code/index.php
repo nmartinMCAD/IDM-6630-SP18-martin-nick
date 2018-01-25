@@ -7,19 +7,22 @@
   <body>
     <?php
 
-      function myFunction() {
-        $myArray = array("Lima","Romeo","Sierra", 480, 920.575);
-        foreach ($myArray as $value) {
-          echo
-          "<ul>
-            <li>$value</li>
-          </ul>";
-        }
-      }
+      $myArray = array("Lima","Romeo","Sierra", 480, 920.575);
+      $arrayTwo = array("Echo", "Charlie", "Zulu", 8820, 7.85);
+      $arrayThree = array("Yankee", "India", "Kilo", 75, 44.25);
 
-      myFunction();
+      function myFunction($arrayToList) {
+          echo "<ul>";
+          foreach ($arrayToList as $value) {
+            echo "<li>$value</li>";
+          }
+          echo "</ul>";
+        }
+
+      myFunction($myArray);
+      myFunction($arrayTwo);
+      myFunction($arrayThree);
 
     ?>
-
   </body>
 </html>
