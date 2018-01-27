@@ -1,10 +1,20 @@
-html {
-  background-color: red;
-}
-
 main {
   width: 700px;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 5rem;
+}
+
+ul {
+  margin-bottom: 8rem;
+}
+
+footer {
+  background-color: $pink;
+  height: 300px;
+  position: relative;
 }
