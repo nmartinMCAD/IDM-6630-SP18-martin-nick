@@ -15,24 +15,14 @@
 
     if (isset($_GET['article'])) {
       $article = $_GET['article'];
-       if ($article == 'article-one'
-                    || 'article-two'
-                    || 'article-three'
-                    || 'article-four'
-                    || 'article-five'
-                    || 'article-six'
-                    || 'article-seven'
-                    || 'article-eight'
-                    || 'article-nine') {
+       if (isset($article)) {
          include 'inc/articles/' . $article . '/article-template.php';
       } else {
         echo "<p>sorry, the article you're looking for does not exist.</p>";
       }
     } else if (isset($_GET['section'])) {
         $section = $_GET['section'];
-          if ($section == 'space'
-                       || 'environment'
-                       || 'technology') {
+          if (isset($section)) {
             include 'inc/sections/' . $section . '/section-template.php';
           } else {
               echo "<p>sorry, the section you're looking for does not exist.</p>";
