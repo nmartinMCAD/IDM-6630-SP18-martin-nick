@@ -30,7 +30,9 @@
       }
     } else if (isset($_GET['section'])) {
         $section = $_GET['section'];
-          if ($section == 'space' || 'environment' || 'technology') {
+          if ($section == 'space'
+                       || 'environment'
+                       || 'technology') {
             include 'inc/sections/' . $section . '/section-template.php';
           } else {
               echo "<p>sorry, the section you're looking for does not exist.</p>";
