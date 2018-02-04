@@ -1,18 +1,47 @@
-ul {
-  list-style-type: none;
-  float: right;
-  margin: 1rem;
+header {
+  background-color: $green;
+  color: $white;
+  padding: 1rem;
 }
 
-li {
+header h1, header ul, header li, nav {
   display: inline;
 }
 
+header ul {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
 ul.homeSectionLinks {
-  float: none;
-  margin: 0;
+  list-style-type: none;
+  margin-top: 8rem;
 }
 
 .homeSectionLinks li {
-  display: block;
+  margin-bottom: 5rem;
+  border: 1px solid $black;
+  padding: 1rem;
+}
+
+.homeSectionLinks li:hover {
+  background-color: #221A18;
+}
+
+div.articleLink {
+  border-bottom: 1px solid $black;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
